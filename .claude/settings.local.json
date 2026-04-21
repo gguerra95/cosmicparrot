@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(docker compose *)",
+      "Bash(docker exec *)",
+      "Bash(docker port *)",
+      "Bash(curl -s http://localhost/api/v1/health)",
+      "PowerShell(Get-Command node -ErrorAction SilentlyContinue)",
+      "PowerShell(docker run --rm -v \"C:\\\\Users\\\\gguerra\\\\Desktop\\\\repos\\\\hackathon\\\\backend:/app\" -w /app node:20-alpine npm install 2>&1)",
+      "PowerShell(tail -5)",
+      "Bash(cat C:\\\\\\\\Users\\\\\\\\gguerra\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\claude\\\\\\\\c--Users-gguerra-Desktop-repos-hackathon\\\\\\\\002c4a27-114b-4004-a8a1-b6c60f7f37eb\\\\\\\\tasks\\\\\\\\bc1q7z021.output)",
+      "Read(//usr/bin/**)",
+      "Bash(npm --version)",
+      "Bash(npx tsc *)",
+      "PowerShell(Get-Command node, npm -ErrorAction SilentlyContinue)"
+    ]
+  }
+}
